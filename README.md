@@ -29,8 +29,8 @@ Web Service URL : https://www.crushedmycar.site/
 ---
 
 ## Model Composition
-- **UNet** 구조를 기반으로, Dataset 의 4개의 Label(스크래치, 찌그러짐, 파손, 이격)을 각각 세분화하기 위해 **4개의 UNet** 모델을 별도로 학습시켰습니다.
-- 각 모델은 해당 라벨에 최적화된 학습을 진행하여, 종합적인 성능을 향상시켰습니다.
+- **UNet** 구조를 기반으로, Dataset 의 4개의 Class(스크래치, 찌그러짐, 파손, 이격)를 각각 세분화하기 위해 **4개의 UNet이 각각의 Class 를 Binary Classification 하도록** 별도로 학습시켰습니다. 이는 일종의 앙상블 시스템인 셈 입니다.
+- 하나의 UNet 이 4개의 Class 를 분류할때보다,정확도보다 약 31% 향상되었습니다.
 
 ---
 
