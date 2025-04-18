@@ -11,7 +11,7 @@ Web Service URL : https://www.crushedmycar.site/
 ## Preview
 |Input|Output|
 |------|---|
-|![Screenshot from 2025-04-07 02-05-51](https://github.com/user-attachments/assets/98b4b356-c471-4508-b656-6bbb50c27879)|![Screenshot from 2025-04-07 02-05-57](https://github.com/user-attachments/assets/0654a08e-2ad1-4980-87f1-32e268a72188)|
+|![Image](https://github.com/user-attachments/assets/babd76e1-7e9a-4da1-aec2-24436d9e1f00)|![Image](https://github.com/user-attachments/assets/5ea7306a-70dc-43b5-972f-6ac7807f5efa)|
 
 ---
 
